@@ -1,9 +1,14 @@
 import React from "react";
-import { FlatList, Text } from "react-native";
-import { useDispatch, useSelector } from "react-redux";
+import { FlatList, Text, View } from "react-native";
+import SearchBar from "../components/SearchBar";
 
-function Home(props) {
-  return <Text>CineList Home!</Text>;
+function Home() {
+  return (
+    <View>
+      <Text>CineList Home!</Text>
+      <SearchBar />
+    </View>
+  );
 }
 
 export default Home;
