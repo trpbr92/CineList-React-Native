@@ -1,14 +1,15 @@
 import React from "react";
-import { FlatList, Text, View } from "react-native";
+import { FlatList, Text, View, Button } from "react-native";
+
 import SearchBar from "../components/SearchBar";
 
-function Home() {
+const Home = () => {
   return (
     <View>
-      <Text>CineList Home!</Text>
       <SearchBar />
+      <Text>CineList Home!</Text>
     </View>
   );
-}
+};
 
 export default Home;
